@@ -1,4 +1,4 @@
-// Leetcode 2960. Count Tested Devices After Test Operations
+// Leetcode - 2960. Count Tested Devices After Test Operations
 class Solution {
     public int countTestedDevices(int[] arr) {
         int n = arr.length ;
