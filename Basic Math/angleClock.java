@@ -1,0 +1,10 @@
+// 1344. Angle Between Hands of a Clock
+class Solution {
+    public double angleClock(int hour, int minutes) {
+        double ans = Math.abs(30 * hour - 5.5 * minutes);
+
+        if (ans > 180)
+            return 360.0 - ans;
+        return ans;
+    }
+}
